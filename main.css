@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Dooijes';
+    src: url('Dooijes-Medium.woff2') format('woff2'),
+        url('Dooijes-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dooijes';
+    src: url('Dooijes-Regular.woff2') format('woff2'),
+        url('Dooijes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+    margin-bottom: 0; /* Remove default margin */
+
+
+}
+
+h2 {
+    font-family: 'Dooijes';
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0; /* Remove default margin */
+}
+
+h2 a {
+    color: black;
+}
+
+h1 {
+    font-family: 'Dooijes';
+    font-weight: 500;
+    font-size: 5rem;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 0; /* Remove default margin */
+    margin-bottom: 0; /* Remove default margin */
+    
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+#image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    margin-top: 3rem;
+    gap: 10px; /* Gap between grid items */
+    align-items: baseline;
+
+
+}
+
+#image-container img {
+    width: 100%; /* Make images fill the grid cells */
+    max-width: 200px; /* Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 3rem;
+    align-items: center;
+
+
+    
+
+}
+
+
+#filter-buttons {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#filter-buttons button {
+    padding: 0rem 0.5rem;
+    font-family: 'Dooijes';
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: black;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: color 0.3s;
+}
+
+#filter-buttons button:hover {
+    color: grey;
+}

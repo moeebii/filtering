@@ -1,0 +1,49 @@
+[
+    {
+        "name": "The Lost Words",
+        "year": "2023",
+        "type": "Book",
+        "print": "Laser",
+        "bind": "Perfect Binding",
+        "assets": "asset1.png"
+    },
+    {
+        "name": "Blue Girl: V1",
+        "year": "2024",
+        "type": "Zine",
+        "print": "Risograph",
+        "bind": "One Page",
+        "assets": "asset2.png"
+    },
+
+    {
+        "name": "Blue Girl: V2",
+        "year": "2024",
+        "type": "Zine",
+        "print": "Laser",
+        "bind": "One Page",
+        "assets": "asset3.png"
+    },
+    {
+        "name": "Dogs on Instagram",
+        "year": "2024",
+        "type": "Zine",
+        "print": "Risograph",
+        "bind": "Saddle Stitching",
+        "assets": "asset4.png"
+    },
+    {
+        "name": "The Healing Table",
+        "year": "2024",
+        "type": "Book",
+        "print": "Laser",
+        "bind": "Saddle Stitching",
+        "assets": "asset5.png"
+    }
+
+
+
+
+
+
+]
