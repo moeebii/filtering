@@ -114,3 +114,65 @@ h1 a {
 #filter-buttons button:hover {
     color: grey;
 }
+
+
+@media only screen and (max-width: 768px) {
+    html {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    #filter-buttons {
+        flex-wrap: wrap;
+    }
+    #filter-buttons .column {
+        width: 50%;
+    }
+    #image-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Media queries for mobile */
+@media only screen and (max-width: 480px) {
+    html {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 0.75rem;
+    }
+
+
+    #filter-buttons .column {
+        width: 100%;
+
+    }
+
+    #filter-buttons button {
+        font-size: 1rem;
+        border-radius: 5px;
+        border: solid;
+        margin: 0.25rem;
+
+    }
+
+    #filter-buttons {
+        gap: 5px;
+    }
+
+    #image-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #filter-buttons button:hover {
+        color: black;
+    }
+    
+}
