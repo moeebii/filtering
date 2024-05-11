@@ -39,7 +39,27 @@
         "print": "Laser",
         "bind": "Saddle Stitching",
         "assets": "asset5.png"
+    },
+        {
+        "name": "A City Guide of Nouvert",
+        "year": "2024",
+        "type": "Book",
+        "print": "Laser",
+        "bind": "Stapled",
+        "assets": "asset6.png"
+    },
+
+
+        {
+        "name": "Dogs on Instagram (mini)",
+        "year": "2024",
+        "type": "Zine",
+        "print": "Risograph",
+        "bind": "One Page",
+        "assets": "asset7.png"
     }
+
+
 
 
 
