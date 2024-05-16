@@ -74,6 +74,16 @@ var data = [
         "bind": "One Page",
         "assets": "asset7.png"
     }
+    ,
+            {
+        "name": "Amy's Yearbook",
+        "year": "2024",
+        "type": "Book",
+        "print": "Laser",
+        "bind": "Stapled",
+        "assets": "asset8.png"
+    }
+
 
 ];
 

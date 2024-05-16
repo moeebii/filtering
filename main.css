@@ -48,12 +48,14 @@ h1 {
     font-family: 'Arial Narrow';
     font-weight: 100;
     font-size: 17rem;
+    color: #8A0100;
     line-height: 15rem;
     font-style: normal;
     display: flex;
     justify-content: center;
-    margin-top: 0; /* Remove default margin */
-    margin-bottom: 0; /* Remove default margin */
+    margin-top: 1rem; /* Remove default margin */
+    margin-bottom: 1rem; /* Remove default margin */
+        z-index: -2;
     
 }
 
